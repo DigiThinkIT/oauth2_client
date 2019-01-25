@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include oauth2_client *.css
+recursive-include oauth2_client *.csv
+recursive-include oauth2_client *.html
+recursive-include oauth2_client *.ico
+recursive-include oauth2_client *.js
+recursive-include oauth2_client *.json
+recursive-include oauth2_client *.md
+recursive-include oauth2_client *.png
+recursive-include oauth2_client *.py
+recursive-include oauth2_client *.svg
+recursive-include oauth2_client *.txt
+recursive-exclude oauth2_client *.pyc
